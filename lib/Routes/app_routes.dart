@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_todo/View/home_page.dart';
+import 'package:task_todo/screens/home_page.dart';
 
 class AppRoutes {
   static const String home = "/home";
