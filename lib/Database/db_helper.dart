@@ -33,7 +33,7 @@ class DBHelper {
       version: 1,
       onCreate: (db, version) {
         db.execute(
-          "create table $todoTableName ($todoSrNo integer primary key autoincrement, $todoTitle text, $todoDesc text, $todoDone integer, $todoCreatedAt text) ",
+          "create table $todoTableName ($todoSrNo integer primary key autoincrement, $todoTitle text, $todoDesc text, $todoDone integer, $todoCreatedAt integer) ",
         );
       },
     );
